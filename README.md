@@ -50,17 +50,26 @@ Skill-demonstration project where I create a perceptron algorithm that works by 
 
 ---
 
-#### **7. Documentation**  
+### **7. Documentation**  
 - **Markdown**:  
   Project description, goals, and results in `README.md`.
 
 --- 
 
 <details>
-<summary><b>Tap to see confusion matrix of trained model</b></summary>
+<summary><b>Tap to see visualization of training process</b></summary>
 
-| ![Perceptron training plot](./pictures/Perceptron_evolution.png "Perceptron training") | | :--: | | *Perceptron training plot* |
-| ![MP Error-evotution plot](/pictures/MPE_evolution.png "MPE training") | | *MPE training* | 
+**Perceptron training evolution**
+![Perceptron training plot](./pictures/Perceptron_evolution.png)
+**Error-function training evolution**
+![MP Error-evotution plot](/pictures/MPE_evolution.png) 
 
 </details>
 
+### **Project Structure**  
+```bash
+Rerceptron_algorithm/
+├── Perceptron_algorithm.ipynb   # Jupyter notebooks with algorithm
+├── pictures/                    # Folder for visualization
+├── requirements.txt             # Dependency list
+└── README.md                    # Project overview
